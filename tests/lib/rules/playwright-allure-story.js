@@ -29,7 +29,7 @@ ruleTester.run("playwright-allure-story", rule, {
     {
       code: `test('test1',async()=>{expect(success).toBeTruthy();});`,
       parserOptions: { ecmaVersion: 8 },
-      errors: [{ message: "Fill me in.", type: "Me too" }],
+      errors: [{ message: "At least allure.story() should be annotated!", type: "CallExpression" }],
     },
   ],
 });
