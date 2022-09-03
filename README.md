@@ -1,4 +1,7 @@
 # tallinnjs-eslint-rules
+
+## BEFORE ALL: Get familiar with AST
+- https://www.twilio.com/blog/abstract-syntax-trees
 ## STEP I: How to generate your own ESLint plugin and rule using Yeoman
 1. Install [Yeoman](https://yeoman.io/) and [ESLint generator](https://www.npmjs.com/package/generator-eslint) for it
 ```
