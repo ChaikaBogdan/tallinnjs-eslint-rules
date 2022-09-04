@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-tallinnjs-rules",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Eslint plugin and rules for TallinnJS talk",
   "keywords": [
     "eslint",
