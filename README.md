@@ -106,3 +106,7 @@ CallExpression[callee.name ='test']" - will catch all Playwrigth test functions
 2. Store it in your repository and add `"eslint-plugin-<plugin_name>": "file:/path/to/plugin"` to your projects `package.json`
 3. Use `npm link`
 4. Publish it to an npm registry and simply add the plugin name to your `package.json`
+
+I published it as [eslint-plugin-tallinnjs-rules NPM package](https://www.npmjs.com/package/eslint-plugin-tallinnjs-rules) using [GitHub Actions](https://github.com/bogdan-bashev/tallinnjs-eslint-rules/blob/main/.github/workflows/npm-publish.yml)
+ 
+You can go to [Test Project](https://github.com/bogdan-bashev/tallinnjs-eslint-rules/tree/main/test-project) and check how the plugin and rule working in live conditions for your IDE  
