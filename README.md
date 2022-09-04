@@ -35,9 +35,10 @@ Type a short example of the code that will fail: test('test1',async()=>{expect(s
 6. Add one postive scenario to `tests/lib/rules/<rule-name>.js` and make sure your `npm test` failing on tests, and not on the code samples. For example: for Playwright code I was forced to use `parserOptions:{ecmaVersion:8}`
 
 ## STEP II: Parsing code tree using [AST Explorer](https://astexplorer.net/), [ESQuery](http://estools.github.io/esquery/) to define your rule 
+You can check this workshop rule snippet in [this AST gist](https://astexplorer.net/#/gist/0bd46facc1de757fab892914d0fe2415/045d770c06ca520921cb0039ab078a8fa9b5a864)
 1. Prepare your real-life code snippests both positive and negative. TDD is encouraged while working with ESlint rules.
 2. Open https://astexplorer.net/, select desired Parser/Transformer(@babel/eslint-parser-7.13.14, ESLint v8-8.9.0, TS suported too!)
-3. Paste your first most simple snippet into [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) Explorer
+3. Paste your first most simple snippet into [AST Explorer](https://astexplorer.net/#/gist/0bd46facc1de757fab892914d0fe2415/045d770c06ca520921cb0039ab078a8fa9b5a864) 
 ```
 test('test1',async()=>{allure.story("JIRA-123");expect(success).toBeTruthy();});
 console.log('123')
